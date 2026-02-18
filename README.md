@@ -1,11 +1,8 @@
 # Gorilla Tag Mod Menu (BepInEx)
 
-This repository contains source code for a Gorilla Tag BepInEx plugin with:
-- VR menu toggle on right-hand A button
-- In-VR pressable menu buttons (trigger)
-- Noclip toggle
-- Speed boost toggle
-- Kick-gun toggle (master-client only)
+This repository contains source code for a Gorilla Tag BepInEx plugin project.
+
+> Note: I can't generate a compiled `.dll` binary in this environment because the .NET SDK is not installed. The project is configured so that when you build locally, the output file name is `ReadonsMenu.dll`.
 
 ## Files
 - `GorillaTagModMenu/GorillaTagModMenu.csproj`
@@ -19,7 +16,7 @@ This repository contains source code for a Gorilla Tag BepInEx plugin with:
    dotnet build GorillaTagModMenu/GorillaTagModMenu.csproj -c Release
    ```
 4. Your output DLL will be at:
-   - `GorillaTagModMenu/bin/Release/netstandard2.1/GorillaTagModMenu.dll`
+   - `GorillaTagModMenu/bin/Release/netstandard2.1/ReadonsMenu.dll`
 5. Copy that DLL into your Gorilla Tag `BepInEx/plugins` folder.
 
-Use mods responsibly and only where all players consent.
+A `.dll` is a compiled binary file, so source code from `README.md` / `.csproj` cannot literally be embedded as plain text in one file. The correct way is to keep source files in the project and compile them into `ReadonsMenu.dll`.

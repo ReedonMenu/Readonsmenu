@@ -4,6 +4,8 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>ReadonsMenu</AssemblyName>
+    <RootNamespace>ReadonsMenu</RootNamespace>
   </PropertyGroup>
 
   <!-- Add local references for your Gorilla Tag install and mod loader DLLs -->
