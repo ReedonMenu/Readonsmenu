@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using HarmonyLib;
 
-namespace Reedon.Menu
+namespace ReedonsMenuTemp.Menu
 {
     [HarmonyPatch(typeof(GorillaLocomotion.Player), "LateUpdate", MethodType.Normal)]
     public class Client : MonoBehaviour
