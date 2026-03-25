@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace J0kerMenuTemp.Loading
+namespace ReadonsMenuTemp.Loading
 {
     [BepInPlugin("com.J0kerModZ.J0kerMenuTemp", "J0ker Menu Temp", "1.0.0")] // You Can Change This To Your Info
     public class Loader : BaseUnityPlugin
